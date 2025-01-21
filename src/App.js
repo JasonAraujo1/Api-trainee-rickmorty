@@ -41,6 +41,7 @@ const App = () => {
           <img src={charactersData.image} alt="Personagem" />
         )}
       </div>
+      {charactersData && <h1>{charactersData.name}</h1>}{" "}
     </div>
   );
 };
